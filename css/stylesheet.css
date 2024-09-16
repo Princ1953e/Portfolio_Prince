@@ -1,0 +1,65 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.colory {
+  color: #ffb400;
+}
+.iam {
+  transform: rotate(-15deg);
+  position: relative;
+}
+.about-title::before {
+  content: "RESUME";
+  font-size: 110px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 0.7;
+  font-weight: 900;
+  opacity: 0.2;
+  color: #ffffffc2;
+}
+.tit::before {
+  content: "PROJECT";
+}
+.ti::before {
+  content: "CONNECTION";
+}
+.card {
+  overflow: hidden;
+}
+.card img {
+  transition: all 0.5s;
+}
+.card img:hover {
+  transform: scale(1.1);
+}
+.text-abc {
+  -webkit-text-stroke: 1px #ffb400;
+}
+.form-control {
+  background-color: transparent;
+  border: 1px solid #333333;
+}
+.form-control:focus {
+  border: 1px solid #ffb400;
+  background-color: transparent;
+  box-shadow: none;
+  color: #ffffff;
+}
+.iimg {
+  background-image: url("../img/IMG_9135_2.jpg");
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 100%;
+}
